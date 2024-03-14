@@ -16,14 +16,14 @@
     "require": {
         "php": "^8.0",
         "ext-json": "*",
-        "arcanedev/support": "^10.0"
+        "arcanedev/support": "^10.0|^11.0"
     },
     "require-dev": {
         "ext-intl": "*",
-        "laravel/framework": "^9.0",
+        "laravel/framework": "^9.0|^10.0|^11.0",
         "mockery/mockery": "^1.4.4",
-        "orchestra/testbench-core": "^7.0",
-        "phpunit/phpunit": "^9.5.10"
+        "orchestra/testbench-core": "^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.5.10|^10"
     },
     "autoload": {
         "psr-4": {
@@ -58,6 +58,12 @@
     "config": {
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/celcius-digital-agency/Support"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
