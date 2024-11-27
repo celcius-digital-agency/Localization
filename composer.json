@@ -58,6 +58,12 @@
     "config": {
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/celcius-digital-agency/Support"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
