@@ -57,7 +57,7 @@ class LocaleCollection extends Collection
      *
      * @return \Arcanedev\Localization\Entities\Locale|mixed
      */
-    public function first(?callable $callback = null, ?mixed $default = null)
+    public function first(?callable $callback = null, mixed $default = null)
     {
         return parent::first($callback, $default);
     }
